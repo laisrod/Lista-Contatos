@@ -1,0 +1,67 @@
+/* Estilo body */
+body {
+  background-color: #F8F9FD;
+  text-align: center;
+}
+
+/* Estilo lista */
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+/* Estilo card */
+.card {
+  border: 1px solid #000;
+  background-color: #fff;
+  margin: 15px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.card-image{
+    border-radius: 50%;
+}
+
+.button-delete{
+    background-color: red;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.button-load{
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-left: 5px;
+    border-radius: 6px;
+}
+
+.input{
+    padding: 5px;
+    border-radius: 6px;
+    font-size: 16px;
+    padding-left: 8px;
+    border: none;
+    border-radius: 6px;
+}
+
+.message{
+    color: red;
+    font-size: 20px;
+    margin-top: 20px;
+}
